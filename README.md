@@ -8,7 +8,7 @@ This project builds a systematic pipeline to identify high-conviction insider pu
 
 **Stage 1 — Data collection** (`01_scalpData.R`)
 
-All insider purchase filings for 2024 are scraped from [OpenInsider](http://openinsider.com) across paginated results of 1,000 rows each. The raw data is saved locally for downstream processing.[Quick download link here](output/tradesTxt/01_tradesPurchase_Y2024.txt)
+All insider purchase filings for 2024 are scraped from [OpenInsider](http://openinsider.com) across paginated results of 1,000 rows each. The raw data is saved locally for downstream processing. [Quick download link here](output/tradesTxt/01_tradesPurchase_Y2024.txt)
 
 **Stage 2 — Filtering & enrichment** (`01_scalpData.R`)
 
