@@ -8,9 +8,7 @@ This project builds a systematic pipeline to identify high-conviction insider pu
 
 **Stage 1 — Data collection** (`01_scalpData.R`)
 
-All insider purchase filings for 2024 are scraped from [OpenInsider](http://openinsider.com) across paginated results of 1,000 rows each. The raw data is saved locally for downstream processing.
-
-[Download trade data](output/tradesTxt/01_tradesPurchase_Y2024.txt)
+All insider purchase filings for 2024 are scraped from [OpenInsider](http://openinsider.com) across paginated results of 1,000 rows each. The raw data is saved locally for downstream processing.[Quick download link here](output/tradesTxt/01_tradesPurchase_Y2024.txt)
 
 **Stage 2 — Filtering & enrichment** (`01_scalpData.R`)
 
@@ -24,9 +22,7 @@ A price chart is generated for each filtered trade, plotting OHLC or HL average 
 
 **Stage 4 — Win rate scoring** (`03_calcWinStrategy.r`)
 
-A threshold-based strategy is applied to classify each trade. A trade is labelled a **win** if the OHLC price reaches ≥110% of the filing price within 30 days, a **loss** if it drops to ≤95%, and **neutral** if neither threshold is hit. The day and price at which the outcome occurs are recorded alongside the label.
-
-[Best win rate group](https://github.com/yangroroe/becx/tree/main/output/tradesTxt/04_topGroupWinrate.txt)
+A threshold-based strategy is applied to classify each trade. A trade is labelled a **win** if the OHLC price reaches ≥110% of the filing price within 30 days, a **loss** if it drops to ≤95%, and **neutral** if neither threshold is hit. The day and price at which the outcome occurs are recorded alongside the label. [Quick download link here](https://github.com/yangroroe/becx/tree/main/output/tradesTxt/04_topGroupWinrate.txt)
 
 **Stage 5 — PCA & performance metrics** (`04_analysisPCA.r`)
 
