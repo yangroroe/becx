@@ -45,9 +45,9 @@ repeat {
 purchase_df <- bind_rows(all_purchases)
 
 # Create the output folder inside BEC project
-dir.create("output", showWarnings = FALSE)
+# dir.create("output/tradesTxt", showWarnings = FALSE)
 fwrite(purchase_df, sep = "\t", quote = FALSE,
-       file = "output/tradesPurchase_Y2024_new.txt")
+       file = "output/tradesTxt/01_tradesPurchase_Y2024.txt")
 
 
 
