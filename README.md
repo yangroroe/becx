@@ -29,7 +29,7 @@ Per-trade financial metrics are computed including Sharpe ratio, maximum drawdow
 
 ![Visualise PCA analysis with most important metrics](output/graphs/PCAanalysis/PCA_result.png)
 
-**Stage 6 — Risk stratification **
+**Stage 6 — Risk stratification** 
 Each trade is evaluated not just on raw returns but on its risk-adjusted profile. SPY is used as the market benchmark to isolate stock-specific performance through alpha and beta estimation, while VIX serves as a volatility control to distinguish trades made during calm versus turbulent market conditions. Sharpe ratio and maximum drawdown capture the return-to-risk tradeoff at the individual trade level, and metrics such as Jensen's alpha, Treynor ratio, and information ratio provide further granularity on market-adjusted outperformance. Together, these measures allow insider trades to be compared on a like-for-like basis regardless of the broader market environment at the time of the trade.
 
 ---
