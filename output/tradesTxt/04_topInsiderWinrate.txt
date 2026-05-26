@@ -1,0 +1,377 @@
+Insider.Name	role_group	win_rate_pct	n_trades
+Gate City Capital Management, LLC	10%	0	1
+Berkshire Hathaway Inc	10%	58.3333333333333	12
+George W Whitney	10%	0	1
+Ecor1 Capital, LLC	10%	80	5
+Chang Nancy T	10%	100	1
+Baker Bros. Advisors LP	10%	50	2
+Childs John W	others	75	4
+Coliseum Capital Management, LLC	10%	0	5
+Control Empresarial De Capitales S.A. De C.V.	10%	19.1489361702128	47
+Monroe James III	10%	80	10
+Barry John F	10%	0	15
+Redmile Group, LLC	10%	33.3333333333333	3
+Icahn Carl C	10%	100	8
+Schlanger David J	chair	100	1
+Anevski Peter	ceo	100	1
+Chan Heng Fai Ambrose	10%	100	4
+Suvretta Capital Management, LLC	10%	0	1
+English Aron R.	10%	50	2
+Rakolta John Jr	others	50	2
+Rozek Alexander Buffett	others	0	2
+Gilead Sciences, Inc.	10%	100	2
+Mott David M	others	100	2
+Springer Timothy A	10%	60	5
+New Enterprise Associates 16, L.P.	10%	0	1
+Biglari, Sardar	10%	85.7142857142857	7
+Greco Thomas	others	100	1
+Hutton Keith A	10%	50	2
+Sheehan Kevin M	ceo	100	2
+Klinsky Steven B	others	0	9
+Silver Lake West Holdco, L.P.	10%	100	2
+Whitesell Patrick	10%	100	2
+Emanuel Ariel	10%	100	2
+Broadwood Partners, L.P.	10%	0	1
+Graham G. Walmsley	others	0	2
+Walker R A	others	0	1
+Tannenbaum Leonard M	10%	25	4
+Manning Paul B	others	100	2
+Courtis Kenneth S.	others	0	2
+Duggan Robert W	10%	50	2
+Coughlin Christopher J	others	100	1
+West Steven E	others	100	1
+Rosenthal Saul B	others	0	2
+Cohen Jonathan H	ceo	0	2
+Sachs David A	others	0	3
+Cohn Charles K.	10%	40	15
+Schuppenhauer Eric	others	0	1
+Kneen Quintin	ceo	100	1
+Robotti Robert	others	100	1
+Fitterling James R	chair	0	1
+Baldwin Robert H B Jr	others	0	1
+McKenna Mark C.	others	0	1
+Stellantis N.V.	10%	66.6666666666667	3
+Stone House Capital Management, LLC	10%	0	1
+Dorchester Minerals Operating LP	others	0	1
+Macdowell Jack Lee Jr	others	0	2
+Pace Gary W	others	100	1
+Palantir Technologies Inc.	10%	100	2
+Frost Phillip Md Et Al	10%	0	1
+Donegal Mutual Insurance Co	10%	16.6666666666667	6
+Tang Kevin	others	100	1
+Weaver Delores B	10%	0	1
+Schroeder Thilo	others	0	1
+Weaver Wayne J	10%	0	1
+Lebda Douglas R	10%	0	1
+Gubin Moishe	ceo	100	1
+Fernandez Henry A	chair	0	1
+Gramm Jefferson	10%	0	1
+Parent Kenneth M.	others	0	1
+Campbell Jeffrey C	others	0	1
+Moulder Leon O Jr	ceo	0	1
+Jcp Investment Management, LLC	10%	0	1
+Stone John H	ceo	0	2
+Paddick Brendan J	others	25	4
+Eliasek M Grier	others	0	2
+Samsara Biocapital Gp, LLC	10%	0	1
+Rogers William H Jr	chair	0	2
+Wilks Matthew	chair	0	1
+Daily Gregory S	10%	0	1
+McMinn Rachel	ceo	100	1
+Siegall Clay B	ceo	100	1
+Angelakis Michael J	others	100	1
+Thrive Partners VII Growth Gp, LLC	10%	100	3
+Kushner Joshua	10%	100	3
+Kayyem Jon Faiz	others	33.3333333333333	3
+Encrantz Staffan	10%	0	1
+Global Gp LLC	others	55.5555555555556	9
+Ann S. Gerdin Revocable Trust	10%	0	1
+Limon Zvi	others	100	1
+Mehra Anand	others	0	1
+O'Brien Patrick D.	others	0	1
+Fribourg Paul J	others	100	3
+Jenkins Mark David	others	100	1
+Marotta John	ceo	100	1
+Laukien Frank H	10%	100	1
+Niehaus Robert H	others	100	1
+Stadium Capital Management LLC	10%	50	4
+Ragatz Erik D.	others	100	1
+Khan Imran	others	100	1
+Steinberg David	10%	100	1
+Bajwa Harjinder	others	100	1
+Sakellaris George P	10%	0	1
+Einhorn David	10%	0	1
+Katz Avi S	chair	100	1
+Corley Jesse Anderson	others	0	1
+Basswood Capital Management, L.L.C.	others	0	1
+Ergen Charles W	10%	100	1
+Fagnan Jeff	10%	0	1
+Angelidis-Smith Maria	others	100	1
+Asher Andrew Lynn	others	0	1
+Kraemer Harry M Jansen Jr	others	100	1
+Ra Capital Management, L.P.	10%	0	3
+Avery More	chair	0	1
+Williams Gregg	10%	0	1
+Schorsch Nicholas S	10%	0	2
+Rothe Christian E	others	0	1
+Reeves Robert K	others	0	1
+Zeiler Gerhard	others	100	1
+Topline Capital Partners, LP	10%	50	4
+Apmh Invest A/S	10%	0	4
+Reed Colin V	chair	50	2
+Gerdin Michael J	10%	0	3
+Turtle Creek Asset Management Inc.	10%	0	1
+Moreno Arturo R	10%	50	2
+Cormorant Asset Management, LP	10%	75	4
+Galtney William F Jr	others	0	1
+Valles Noe G	others	0	2
+Heerema International Group Services Sa	10%	0	1
+Talwalkar Abhijit Y	others	0	1
+De Soto Matthew G	others	0	1
+Wilson David J.	ceo	100	1
+Shepard Gregory M	10%	100	4
+D. E. Shaw & Co, L.P.	10%	60	5
+Cook Christian B	others	0	1
+Loeffler Kelly Lynn	others	100	1
+Florance Andrew C	ceo	0	1
+Third Rock Ventures V, L.P.	10%	0	1
+Simanovsky Michael	10%	0	2
+Monie Alain	others	0	1
+Zilis Michael	others	0	1
+Bay Paul D	ceo	0	1
+Geygan Jeffrey Richart	10%	50	2
+Global Value Investment Corp.	10%	50	2
+Levinson Sam	others	0	1
+Ross Jack	10%	0	1
+Bellini Roberto	others	100	1
+Munshi Amit	others	100	1
+Polaris Management Co. Vii, L.L.C.	10%	0	2
+Northpond Ventures II Gp, LLC	10%	0	1
+Ah Equity Partners Bio I, L.L.C.	10%	0	1
+Chimovits Erez	10%	100	1
+Orbimed Advisors LLC	10%	100	2
+Enavate Sciences Gp, LLC	10%	0	2
+Tpg Gp A, LLC	10%	0	1
+Ai Upstream LLC	10%	100	1
+Saba Capital Management, L.P.	10%	33.3333333333333	6
+Tammenoms Bakker Juliet	others	100	1
+5Am Partners Vi, LLC	10%	0	2
+Nashat Amir	10%	0	1
+Schwab Andrew J.	10%	0	1
+Murphy Matthew J	chair	100	1
+State Farm Mutual Automobile Insurance Co	10%	100	3
+Morris Christopher Daniel	ceo	100	1
+Alyeska Investment Group, L.P.	10%	0	1
+Wynnefield Partners Small Cap Value LP I	10%	0	1
+Pande Vijay Satyanand	others	100	2
+Edens Wesley R	10%	0	1
+Coric Vlad	ceo	100	1
+Gangwal Rakesh	others	100	7
+Kelly Gary C	chair	100	1
+Carey Robert	others	100	1
+Lisi Steven A.	chair	100	1
+Gsk Plc	10%	100	1
+Patel Sunit S	others	100	1
+Enright Patrick G	others	50	2
+Healy James	others	33.3333333333333	3
+Galkin Vladimir	10%	0	8
+Anapass, Inc.	10%	0	1
+Abdiel Capital Advisors, LP	10%	55.5555555555556	18
+Rosenwald Lindsay A Md	10%	100	1
+Alco Investment Co	10%	0	1
+Kaplan Stephen A	others	0	1
+Nippon Shinyaku Co Ltd	10%	100	1
+Pilgrim Global Icav	10%	50	2
+Opaleye Management Inc.	10%	100	2
+Peterson Adam K	10%	50	4
+Hightower Jack	10%	0	3
+Welch Joshua G	others	0	1
+Buba Jonathan Z	others	0	1
+Prescott General Partners LLC	10%	0	1
+Sumitomo Mitsui Financial Group, Inc.	others	100	1
+Guidry Gary	ceo	100	1
+Mathers Edward T	10%	100	1
+Baskett Forest	10%	100	1
+Behbahani Ali	10%	100	1
+Chang Carmen	10%	100	1
+Florence Anthony A. Jr.	10%	100	1
+Makhzoumi Mohamad	10%	100	1
+Walker Paul Edward	10%	100	1
+Yang Rick	10%	100	1
+Sandell Scott D	10%	100	1
+New Enterprise Associates 17, L.P.	10%	100	1
+Frazier Life Sciences X, L.P.	10%	100	1
+Heron Patrick J	10%	100	1
+Aynechi Tiba	others	100	1
+Gordon Carl L	10%	100	1
+Lu Hongbo	others	100	1
+Flynn James E	10%	0	1
+Welling Glenn W.	10%	0	1
+Dgp Co., Ltd.	10%	100	1
+Nunn Jason Raleigh	others	0	1
+Sr One Capital Management, LLC	10%	0	1
+Lappe Mark	ceo	75	4
+Thrc Holdings, LP	10%	27.2727272727273	11
+Sylebra Capital LLC	10%	50	2
+Perestroika	10%	50	2
+Perestroika (Cyprus) Ltd	10%	50	2
+Mohn Frederik Wilhelm	10%	50	2
+Kkr Group Partnership L.P.	10%	100	1
+Kkr Phoenix Aggregator L.P.	10%	100	1
+Baldridge Richard A	others	0	1
+Johnson Charles B	10%	0	4
+Demetriou Steven J.	others	100	1
+Quinn William J	others	100	1
+Clark Kevin P	chair	100	1
+Lanigan Bernard Jr	others	100	2
+McHale Judith	others	100	1
+Kanders Warren B	10%	100	1
+Carter Thomas L Jr	chair	0	1
+Golub Lawrence E	chair	0	8
+Golub David	ceo	0	8
+Thompson Dorothy C	others	100	1
+McDonald Calvin	ceo	100	1
+Rosenbloom Keith M	others	0	1
+Cox John	ceo	100	1
+Snowden Jay A	ceo	0	1
+Auvil Paul R. III	others	0	1
+Robbins Larry	others	100	1
+Thermopylae Holdings Ltd.	10%	0	1
+Braner Michael David	10%	66.6666666666667	6
+Jacobs Brian	others	0	1
+Arkoma Drilling, L.P.	10%	40	5
+Monaco Albert	others	0	1
+Subin Neil S	others	100	1
+Lacerte Rene A.	ceo	100	1
+Rettig John R.	others	100	1
+Stallings Robert W	others	100	1
+Forsyth Douglas	others	100	1
+Tempus Ai, Inc.	10%	0	1
+Chambers Michael Andrew	others	0	1
+Larkin C Raymond Jr	others	0	1
+Levinson Sam	10%	0	1
+Treace James T	others	0	1
+Murdoch Lachlan K	chair	0	1
+Brehm Sean Michael	10%	100	1
+Dewalch D Mark	others	0	1
+Treace John T.	10%	100	1
+Radoff Bradley Louis	others	0	1
+Bios Equity Cof, LP	10%	0	1
+Fletcher Aaron G.L.	10%	0	1
+Kreis Leslie W.	10%	0	1
+Leonard Braden Michael	10%	75	4
+Perceptive Advisors LLC	10%	0	1
+Singer Bradley E	others	100	1
+Keel Paul A	ceo	100	1
+Schaufeld Fredrick	others	25	4
+Mfn Partners, LP	10%	0	1
+Kendall Christian S	others	100	1
+Zoley George C	chair	100	1
+Warren Kelcy L	others	0	1
+Kirk Randal J	10%	0	1
+Risher John David	ceo	100	1
+Garipalli Vivek	10%	100	2
+Simmons Jeffrey N	ceo	100	1
+Snyder Andrew Miles	others	100	1
+Samaha Eli	10%	0	1
+Carrillo Antonio	ceo	100	1
+McDonald Calvin	others	100	1
+Lamkin Jeffrey B.	others	100	1
+Macadam Stephen E.	others	100	1
+Fertitta Lorenzo J	10%	50	2
+Fertitta Frank J III	10%	50	2
+Blue Star Exploration Corp	10%	100	1
+Saunders Brent L	chair	100	1
+Johnson Timothy Steven	others	100	1
+Salem Paul J	others	100	1
+Hornbuckle William	ceo	100	1
+Holtz Naftali	others	100	1
+Bortz Jon E	chair	50	2
+Mill Road Capital Iii, L.P.	10%	33.3333333333333	3
+Radoff Bradley Louis	10%	0	1
+Shashua Amnon	ceo	0	1
+Friedberg Albert	10%	0	1
+Hgc Next Inv LLC	10%	0	1
+Seendripu Kishore	10%	0	1
+Crisci Robert	others	0	1
+Jurgensen William G	others	100	1
+Jacobson Paul A	others	0	1
+University of Wisconsin Foundation	10%	0	2
+Johnson William R	others	0	1
+Golden Properties Ltd.	10%	0	1
+Gc Corp.	10%	0	1
+Huh Yong-Jun	others	0	1
+Bunch Richard F. III	10%	100	1
+Doak Michael	others	100	1
+Bunch Michelle Caroline	others	100	1
+Pappas James C	10%	100	1
+Gramm Jefferson	others	100	1
+Bettinger Walter W	chair	0	1
+Wurster Richard A	others	0	1
+Geiger Uri	10%	100	1
+Accelmed Partners, L.P.	10%	100	1
+Telegraph Hill Partners Iv, L.P.	10%	100	1
+Seipel Kenneth Duane	ceo	0	1
+Martin William C	10%	100	1
+Singer Eric	10%	100	1
+Ak Jensen Investment Management Ltd	10%	100	1
+Arctis Global LLC	10%	100	1
+Harper Darin	others	0	1
+Foresite Labs, LLC	10%	0	1
+Foresite Capital Management V, LLC	10%	0	1
+Tananbaum James B.	10%	0	1
+Watson Charles L.	others	100	1
+Sheffield Bryan	10%	0	1
+Von Koch Thomas	10%	100	1
+Stahlberg Jan	10%	100	1
+Manning Paul B	10%	0	1
+Choi Roy	10%	100	1
+Simpson Bob R	10%	0	1
+Friedman Gary G	10%	100	1
+Hoffman Robert Thurston Sr	10%	100	1
+Cui Xiangmin	others	100	2
+Samberg Joseph D	10%	100	1
+Nia Mahbod	ceo	100	1
+Daniel Daniel David III	others	100	1
+Bitterman Kevin	others	100	1
+Ashiya Mona	others	100	1
+Orbimed Advisors LLC	others	100	1
+Dreyfus Maria S.	others	0	1
+Car Bruce	others	100	1
+Desai Ujjaval	ceo	0	1
+Ketchum Stephen	chair	0	1
+Priore Thomas Charles	10%	100	1
+Katmandu Ventures, LLC	10%	0	1
+Borba George A Jr	others	100	1
+Bison Capital Partners Vi-A, L.P.	10%	100	1
+Bison Capital Partners Vi, L.P.	10%	100	1
+Trussler Douglas B	10%	100	1
+Patel Snehal	10%	0	1
+Isaacman Jared	10%	0	2
+Legorreta Pablo G.	10%	0	1
+Haslam William E	others	0	1
+Rowlands Sharon T	others	100	1
+Hoag Jay C	others	100	1
+Montagner Marc	others	100	1
+Meisinger Chad Leroy	others	100	1
+Wallace Rory	others	0	1
+Simon William E Jr	others	100	1
+Darrell Bracken	ceo	100	1
+Speiser Michael L	others	100	1
+Casdin Capital, LLC	10%	100	3
+Kelleher Thomas Colm	others	0	1
+Akradi Bahram	10%	100	1
+Hoffmeister David F	others	100	1
+Handler David A	others	100	1
+Mongeau Claude	others	0	1
+Huffard John C Jr	others	0	1
+Johnson David Edward	others	100	1
+Adams Joseph P. Jr.	chair	100	1
+Mack Richard	chair	100	1
+Breitner Cameron	others	100	1
+Sills Stephen Jay	ceo	0	1
+Newman David John	others	0	1
+Pertz Douglas A	others	0	1
+Andrus Jeremy	ceo	100	1
+Foehr Matthew W	ceo	0	1
+Meyer David Joseph	others	0	1

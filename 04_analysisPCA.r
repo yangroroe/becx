@@ -25,7 +25,7 @@ calc_returns <- function(prices) {
 }
 
 # --- Your data.table ---
-masterlist <- fread("~/Desktop/projectAI/BEC/openInsider/output/tradesPurchase_masterlistY2024.txt")
+masterlist <- fread("/Users/limyiyang/Desktop/Home/projectAI/BEC/openInsider/output/tradesTxt/03_tradesPurchase_masterlistY2024_winRate.txt")
 dt <- masterlist[, 1:(ncol(masterlist) - 4), with = FALSE]
 #dt <- unique(dt, by = c("Ticker", "Insider.Name"))
 #dt <- dt[result != "neutral"]
@@ -88,32 +88,32 @@ dt[, c("alpha", "beta") := {
 
 # Compute Jensen's Alpha, Treynor Ratio, Information Ratio
 dt[, c("jensen_alpha", "treynor_ratio", "information_ratio") := {
-  
+
   # returns
   rp <- unlist(.SD[1, paste0("ticker_ret_", 1:30, "d"), with = FALSE])
   rm <- unlist(.SD[1, paste0("spy_ret_", 1:30, "d"), with = FALSE])
-  
+
   ok <- complete.cases(rp, rm)
   rp <- rp[ok]
   rm <- rm[ok]
-  
+
   if (length(rp) < 2 || is.na(beta) || beta == 0) {
     list(NA_real_, NA_real_, NA_real_)
   } else {
-    
+
     # Jensen's alpha
     j_alpha <- mean(rp) - beta * mean(rm)
-    
+
     # Treynor ratio
     t_ratio <- mean(rp) / beta
-    
+
     # Information ratio
     te <- sd(rp - rm)
     ir <- ifelse(te == 0, NA_real_, (mean(rp) - mean(rm)) / te)
-    
+
     list(j_alpha, t_ratio, ir)
   }
-  
+
 }, by = 1:nrow(dt)]
 
 
@@ -140,7 +140,7 @@ pca_dt <- data.table(
   role_group = dt$role_group,
   Ticker = dt$Ticker,
   Insider = dt$Insider.Name,
-  DaysToFile = dt$DaysToFile, 
+  DaysToFile = dt$DaysToFile,
   Result = dt$result,
   PC1 = pca_res$x[, 1],
   PC2 = pca_res$x[, 2]
@@ -153,7 +153,7 @@ ggOut <- ggplot(pca_dt, aes(x = PC1, y = PC2, color = role_group)) +
   labs(title = "PCA plot with metrics",
        x = "PC1",
        y = "PC2")
-ggsave(ggOut, height = 6, width = 8, filename = "~/Desktop/projectAI/BEC/openInsider/figures/PCA_group.png")
+ggsave(ggOut, height = 6, width = 8, filename = "/Users/limyiyang/Desktop/Home/projectAI/BEC/openInsider/output/graphs/PCAanalysis/PCA_group.png")
 
 ggOut <- ggplot(pca_dt, aes(x = PC1, y = PC2, color = DaysToFile)) +
   geom_point(alpha = 0.7) +
@@ -162,7 +162,7 @@ ggOut <- ggplot(pca_dt, aes(x = PC1, y = PC2, color = DaysToFile)) +
   labs(title = "PCA plot with metrics",
        x = "PC1",
        y = "PC2")
-ggsave(ggOut, height = 6, width = 8, filename = "~/Desktop/projectAI/BEC/openInsider/figures/PCA_daysToFile.png")
+ggsave(ggOut, height = 6, width = 8, filename = "/Users/limyiyang/Desktop/Home/projectAI/BEC/openInsider/output/graphs/PCAanalysis/PCA_daysToFile.png")
 
 ggOut <- ggplot(pca_dt, aes(x = PC1, y = PC2, color = Result)) +
   geom_point(alpha = 0.7) +
@@ -170,7 +170,7 @@ ggOut <- ggplot(pca_dt, aes(x = PC1, y = PC2, color = Result)) +
   labs(title = "PCA plot with metrics",
        x = "PC1",
        y = "PC2")
-ggsave(ggOut, height = 6, width = 8, filename = "~/Desktop/projectAI/BEC/openInsider/figures/PCA_result.png")
+ggsave(ggOut, height = 6, width = 8, filename = "/Users/limyiyang/Desktop/Home/projectAI/BEC/openInsider/output/graphs/PCAanalysis/PCA_result.png")
 
 ggOut <- ggplot(pca_dt, aes(x = PC1, y = PC2, color = DaysToFile)) +
   geom_point(alpha = 0.7) +
@@ -186,6 +186,7 @@ insiderCount = merge(insiderCount, totalCounts, by = "Insider.Name")
 insiderCount$rate = insiderCount$count / insiderCount$totalCount *100
 insiderCount = insiderCount[result == "win"]
 insiderCount = insiderCount[totalCount != 1]
+fwrite(insiderCount, sep = "\t", quote = F, file = "output/tradesTxt/04_topInsiderWinrate.txt")
 
 masterlist[, .(count = .N), by = c("result")]
 masterlist[, .(count = .N), by = c("result", "Insider.Name")]
@@ -212,7 +213,7 @@ contrib
 # Win rate per group
 winrate_by_group <- masterlist[, .(
   win_rate_pct = mean(result == "win", na.rm = TRUE) * 100
-), by = role_group] 
+), by = role_group]
 
 
 # Average win rate across groups
@@ -220,12 +221,14 @@ overall_win_rate_pct <- masterlist[, mean(result == "win", na.rm = TRUE) * 100]
 winrate_by_group <- masterlist[, .(
   win_rate = mean(result == "win", na.rm = TRUE)
 ), by = role_group]
+fwrite(winrate_by_group, sep = "\t", quote = F, file = "output/tradesTxt/04_topGroupWinrate.txt")
+
 average_win_rate_across_groups_pct <- mean(winrate_by_group$win_rate) * 100
 winrate_by_individual <- masterlist[, .(
   win_rate_pct = mean(result == "win", na.rm = TRUE) * 100,
   n_trades = .N
 ), by = c("Insider.Name", "role_group")]
-
+fwrite(winrate_by_individual, sep = "\t", quote = F, file = "output/tradesTxt/04_topInsiderWinrate.txt")
 
 # List of insiders to label
 label_insiders <- c(
@@ -260,9 +263,7 @@ ggOut = ggplot(masterlist_with_pca, aes(x = PC1, y = PC2, color = label_flag)) +
        y = "PC2",
        color = "Insider Name") +
   theme(legend.position = "bottom")
-ggsave(ggOut, height = 6, width = 8, filename = "~/Desktop/projectAI/BEC/openInsider/figures/PCAinsider.png")
-
-
+ggsave(ggOut, height = 6, width = 8, filename = "/Users/limyiyang/Desktop/Home/projectAI/BEC/openInsider/output/graphs/PCAanalysis/PCAinsider.png")
 
 
 # Check how many points fall into this "cluster"
@@ -270,9 +271,10 @@ masterlist_with_pca[, cluster_flag := (PC1 > 0.2) & (PC2 < -2)]
 table(masterlist_with_pca$cluster_flag)
 ggplot(masterlist_with_pca, aes(x = PC1, y = PC2)) +
   geom_point(alpha = 0.5) +
-  geom_point(data = masterlist_with_pca[cluster_flag == TRUE], 
+  geom_point(data = masterlist_with_pca[cluster_flag == TRUE],
              aes(x = PC1, y = PC2), color = "red", size = 2) +
   theme_classic(base_size = 20) +
   labs(title = "Best Cluster",
        x = "PC1", y = "PC2")
 tmp2 = masterlist_with_pca[cluster_flag == T]
+
